@@ -312,15 +312,8 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
-  /* overflow: hidden;
-  border-radius: 50%; */
 }
 
-/* .section__pic-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-} */
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -387,7 +380,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-/* CONTACT */
+/* CONTACT SECTION */
 
 #contact {
   display: flex;
@@ -436,4 +429,93 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* CERTIFICATIONS SECTION */
+
+#certifications {
+  position: relative;
+  padding-top: 4vh;
+  height: 70vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.certifications-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.certifications-containers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.certifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+}
+
+.certifications-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+
+/* CERTIFICATIONS SECTION */
+
+#certifications {
+  position: relative;
+  padding-top: 4vh;
+  height: 70vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.certifications-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.certifications-containers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.certifications-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+}
+
+.certifications-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
